@@ -1,0 +1,17 @@
+<h1>Task 2:</h1>
+
+<ng-template #box>
+  <div class="boxing">
+    <div class="cube" appChanger [bgColor]="'blue'"></div>
+    <div class="cube" appChanger [bgColor]="'blue'"></div>
+    <div class="cube" appChanger [bgColor]="'blue'"></div>
+    <div class="cube" appChanger [bgColor]="'blue'"></div>
+    <div class="cube" appChanger [bgColor]="'blue'"></div>
+  </div>
+</ng-template>
+
+<ng-container *ngTemplateOutlet="box"> </ng-container>
+<ng-container *ngTemplateOutlet="box"> </ng-container>
+<ng-container *ngTemplateOutlet="box"> </ng-container>
+<ng-container *ngTemplateOutlet="box"> </ng-container>
+<ng-container *ngTemplateOutlet="box"> </ng-container>
